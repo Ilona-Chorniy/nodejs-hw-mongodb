@@ -1,6 +1,6 @@
 import { Contact } from '../models/contact.js';
 
-export const fetchContacts = async () => {
+export const fetchContacts = () => {
   return Contact.find();
 };
 
